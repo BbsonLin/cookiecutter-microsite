@@ -1,0 +1,12 @@
+{
+    "full_name": "Bobson Lin",
+    "email": "bobson801104@gmail.com",
+    "github_username": "BbsonLin",
+    "project_name": "Microsite",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Microsite using Python Micro Web Framework Flask as Backend and Vue.js as Frontend Framework.",
+    "backend_dirname": "app",
+    "version": "0.1.0",
+    "init_with_vue_cli": "y",
+    "init_with_pipenv": "y"
+}
