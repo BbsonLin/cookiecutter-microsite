@@ -23,7 +23,8 @@ def create_app(test_config=None):
         # load the test config if passed in
         app.config.update(test_config)
 
+    @app.route('/')
+    def index():
+        return 'app index'
+
     return app
-
-
-app = create_app()
