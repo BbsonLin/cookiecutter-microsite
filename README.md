@@ -11,5 +11,9 @@ $ sudo pip install cookiecutter
 
 Generate a Python package project
 ```
+$ cookiecutter gh:BbsonLin/cookiecutter-microsite
+```
+or
+```
 $ cookiecutter https://github.com/BbsonLin/cookiecutter-microsite.git
 ```
